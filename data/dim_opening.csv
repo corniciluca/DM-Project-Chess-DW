@@ -1,0 +1,391 @@
+opening_key,eco,opening_name,opening_family,category
+1,A??,Unknown,A?,A
+2,A43,Queen's Pawn Game: Liedmann Gambit,A4,A
+3,C20,Portuguese Opening: Portuguese Gambit,C2,C
+4,B00,Ware Defense: Snagglepuss Defense,B0,B
+5,C41,Philidor Defense: Steinitz Variation,C4,C
+6,B57,Sicilian Defense: Magnus Smith Trap,B5,B
+7,C34,King's Gambit Accepted: Wagenbach Defense,C3,C
+8,B12,Caro-Kann Defense: Ulysses Gambit,B1,B
+9,C00,Rat Defense: Small Center Defense,C0,C
+10,B06,Rat Defense: Accelerated Gurgenidze,B0,B
+11,D15,Slav Defense: Two Knights Attack,D1,D
+12,B01,Van Geet Opening: Grünfeld Defense,B0,B
+13,A50,Slav Indian,A5,A
+14,D00,Queen's Pawn Game: Zurich Gambit,D0,D
+15,B07,Pirc Defense: Sveshnikov System,B0,B
+16,D02,Queen's Pawn Game: Zukertort Variation,D0,D
+17,C23,Bishop's Opening: del Rio Variation,C2,C
+18,A40,Zaire Defense,A4,A
+19,A45,"Trompowsky Attack: Raptor Variation, Hergert Gambit",A4,A
+20,B11,"Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Retreat Line",B1,B
+21,C40,Latvian Gambit: Senechaud Gambit,C4,C
+22,A00,Ware Opening: Wing Gambit,A0,A
+23,C30,King's Gambit Declined: Zilbermints Double Gambit,C3,C
+24,D32,Tarrasch Defense: von Hennig Gambit,D3,D
+25,B23,"Sicilian Defense: Grand Prix Attack, Schofman Variation",B2,B
+26,C21,Danish Gambit Declined: Sörensen Defense,C2,C
+27,A41,"Zukertort Opening: Wade Defense, Chigorin Plan",A4,A
+28,D20,Queen's Gambit Accepted: Schwartz Defense,D2,D
+29,C02,"French Defense: Advance Variation, Wade Variation",C0,C
+30,C26,"Vienna Game: Stanley Variation, Reversed Spanish",C2,C
+31,A04,Zukertort Opening: Ware Defense,A0,A
+32,E83,"King's Indian Defense: Sämisch Variation, Yates Defense",E8,E
+33,B40,Sicilian Defense: Wing Gambit Deferred,B4,B
+34,D30,Semi-Slav Defense: Quiet Variation,D3,D
+35,E90,King's Indian Defense: Zinnowitz Variation,E9,E
+36,C22,Center Game: l'Hermet Variation,C2,C
+37,B53,"Sicilian Defense: Chekhover Variation, Zaitsev Defense",B5,B
+38,A02,Bird Opening: Wagner-Zwitersch Gambit,A0,A
+39,B10,Caro-Kann Defense: Two Knights Attack,B1,B
+40,A85,Dutch Defense: Queen's Knight Variation,A8,A
+41,A34,"English Opening: Symmetrical Variation, Three Knights Variation",A3,A
+42,B20,"Sicilian Defense: Wing Gambit, Santasiere Variation",B2,B
+43,B50,"Sicilian Defense: Wing Gambit, Deferred Variation",B5,B
+44,C53,"Italian Game: Classical Variation, Tarrasch Variation",C5,C
+45,B84,"Sicilian Defense: Scheveningen Variation, Classical Variation",B8,B
+46,D53,Queen's Gambit Declined: Uhlmann Variation,D5,D
+47,C46,Three Knights Opening: Winawer Defense,C4,C
+48,A03,Bird Opening: Williams-Zilbermints Gambit,A0,A
+49,D31,"Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Variation, Belyavsky Line",D3,D
+50,A09,Réti Opening: Zilbermints Gambit,A0,A
+51,B21,"Sicilian Defense: Smith-Morra Gambit Declined, Wing Formation",B2,B
+52,C01,"French Defense: Exchange Variation, Svenonius Variation",C0,C
+53,C50,Italian Game: Rousseau Gambit,C5,C
+54,C64,"Ruy Lopez: Classical Variation, Spanish Wing Gambit",C6,C
+55,B27,Sicilian Defense: Quinteros Variation,B2,B
+56,D04,"Queen's Pawn Game: Colle System, Grünfeld Formation",D0,D
+57,A46,Yusupov-Rubinstein System,A4,A
+58,B25,"Sicilian Defense: Closed, Botvinnik Defense, with f4",B2,B
+59,A06,Zukertort Opening: The Potato,A0,A
+60,B46,Sicilian Defense: Taimanov Variation,B4,B
+61,B22,Sicilian Defense: Heidenfeld Variation,B2,B
+62,A10,English Opening: Zilbermints Gambit,A1,A
+63,A20,"English Opening: King's English Variation, Nimzowitsch-Flohr Variation",A2,A
+64,E11,Bogo-Indian Defense: Wade-Smyslov Variation,E1,E
+65,C44,Scotch Game: Vitzthum Attack,C4,C
+66,C45,Scotch Game: Tartakower Variation,C4,C
+67,B41,"Sicilian Defense: Kan Variation, Maróczy Bind, Réti Variation",B4,B
+68,E20,"Nimzo-Indian Defense: Romanishin Variation, English Hybrid",E2,E
+69,B30,Sicilian Defense: Portsmouth Gambit,B3,B
+70,B34,"Sicilian Defense: Accelerated Dragon, Modern Variation",B3,B
+71,B09,"Pirc Defense: Austrian Attack, Weiss Variation",B0,B
+72,D10,"Slav Defense: Winawer Countergambit, Anti-Winawer Gambit",D1,D
+73,E10,Indian Defense: Döry Indian,E1,E
+74,B92,"Sicilian Defense: Najdorf Variation, Opocensky Variation, Traditional Line",B9,B
+75,C47,"Four Knights Game: Scotch Variation, Schmid Defense",C4,C
+76,C16,"French Defense: Winawer Variation, Petrosian Variation",C1,C
+77,D01,Richter-Veresov Attack: Veresov Variation,D0,D
+78,D06,Queen's Gambit Declined: Zilbermints Gambit,D0,D
+79,C24,Bishop's Opening: Warsaw Gambit,C2,C
+80,A07,King's Indian Attack: Yugoslav Variation,A0,A
+81,A01,Nimzo-Larsen Attack: Symmetrical Variation,A0,A
+82,A21,"English Opening: King's English Variation, Troger Defense",A2,A
+83,C42,Petrov's Defense: Three Knights Game,C4,C
+84,B35,"Sicilian Defense: Dragon Variation, Modern Bc4 Variation",B3,B
+85,E95,King's Indian Defense: Orthodox Variation,E9,E
+86,A15,English Orangutan,A1,A
+87,A13,English Opening: Romanishin Gambit,A1,A
+88,B29,"Sicilian Defense: Nimzowitsch Variation, Main Line",B2,B
+89,C60,Ruy Lopez: Vinogradov Variation,C6,C
+90,D11,"Slav Defense: Quiet Variation, Pin Defense",D1,D
+91,C36,King's Gambit Accepted: Modern Defense,C3,C
+92,C62,"Ruy Lopez: Steinitz Defense, Semi-Duras Variation",C6,C
+93,A05,Zukertort Opening: Quiet System,A0,A
+94,B16,Caro-Kann Defense: Finnish Variation,B1,B
+95,A60,"Benoni Defense: Modern Variation, Snake Variation",A6,A
+96,B54,Sicilian Defense: Prins Variation,B5,B
+97,E62,"King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System",E6,E
+98,B15,Caro-Kann Defense: von Hennig Gambit,B1,B
+99,C78,Ruy Lopez: Rabinovich Variation,C7,C
+100,C63,"Ruy Lopez: Schliemann Defense, Tartakower Variation",C6,C
+101,C70,"Ruy Lopez: Morphy Defense, Schliemann Defense Deferred, Jaenisch Gambit Deferred",C7,C
+102,C65,Ruy Lopez: Halloween Attack,C6,C
+103,C55,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C5,C
+104,D59,"Queen's Gambit Declined: Tartakower Defense, Makogonov Exchange Variation",D5,D
+105,C25,Vienna Game: Zhuravlev Countergambit,C2,C
+106,A25,"English Opening: King's English Variation, Taimanov Variation",A2,A
+107,B13,"Caro-Kann Defense: Panov-Botvinnik, Herzog Defense",B1,B
+108,C67,"Ruy Lopez: Open Berlin Defense, l'Hermet Variation",C6,C
+109,D37,"Queen's Gambit Declined: Vienna Variation, Quiet Variation",D3,D
+110,B44,"Sicilian Defense: Taimanov Variation, Szén Variation",B4,B
+111,B32,Sicilian Defense: Open,B3,B
+112,A11,"Réti Opening: Anglo-Slav Variation, with g3",A1,A
+113,C66,"Ruy Lopez: Closed Berlin Defense, Chigorin Variation",C6,C
+114,C27,"Vienna Game: Stanley Variation, Monster Declined",C2,C
+115,B86,Sicilian Defense: Sozin Attack,B8,B
+116,A22,"English Opening: King's English, Mazedonisch",A2,A
+117,C48,"Four Knights Game: Spanish Variation, Spielmann Variation",C4,C
+118,B08,"Pirc Defense: Classical Variation, Schlechter Variation",B0,B
+119,A53,"Old Indian Defense: Janowski Variation, Main Line",A5,A
+120,A49,Indian Defense: Przepiorka Variation,A4,A
+121,C13,"French Defense: Classical Variation, Vistaneckis Variation",C1,C
+122,A28,"English Opening: King's English Variation, Four Knights Variation, Quiet Line",A2,A
+123,E64,"King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Rare Line",E6,E
+124,C57,"Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit",C5,C
+125,D08,"Queen's Gambit Declined: Albin Countergambit, Tartakower Defense",D0,D
+126,E76,"King's Indian Defense: Four Pawns Attack, Modern Defense",E7,E
+127,A54,Old Indian Defense: Ukrainian Variation,A5,A
+128,D12,"Slav Defense: Quiet Variation, Schallopp Defense",D1,D
+129,D43,Semi-Slav Defense: Moscow Variation,D4,D
+130,B02,Alekhine Defense: Welling Variation,B0,B
+131,A48,"Torre Attack: Fianchetto Defense, Euwe Variation",A4,A
+132,A30,English Opening: Wing Gambit,A3,A
+133,B77,"Sicilian Defense: Dragon Variation, Yugoslav Attack, Sosonko Variation",B7,B
+134,D07,"Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit",D0,D
+135,D05,Rubinstein Opening: Semi-Slav Defense,D0,D
+136,A12,"Réti Opening: Anglo-Slav Variation, with dxc4",A1,A
+137,C77,"Ruy Lopez: Wormald Attack, Grünfeld Variation",C7,C
+138,C28,"Vienna Game: Stanley Variation, Three Knights Variation",C2,C
+139,C61,"Ruy Lopez: Bird Variation, Paulsen Variation",C6,C
+140,C43,"Petrov's Defense: Modern Attack, Trifunovic Variation",C4,C
+141,D21,Queen's Gambit Accepted: Slav Gambit,D2,D
+142,E60,"Queen's Pawn, Mengarini Attack",E6,E
+143,C68,"Ruy Lopez: Exchange, Alekhine Variation",C6,C
+144,A23,"English Opening: King's English Variation, Two Knights Variation, Keres Variation",A2,A
+145,E30,"Nimzo-Indian Defense: Leningrad Variation, Averbakh Gambit",E3,E
+146,E77,King's Indian Defense: Six Pawns Attack,E7,E
+147,D51,Queen's Gambit Declined: Rochlin Variation,D5,D
+148,A90,"Dutch Defense: Stonewall Variation, Modern Variation",A9,A
+149,C58,"Italian Game: Two Knights Defense, Polerio Defense, Yankovich Variation",C5,C
+150,D94,"Grünfeld Defense: Three Knights Variation, Paris Variation",D9,D
+151,C10,"French Defense: Rubinstein Variation, Maric Variation",C1,C
+152,C72,"Ruy Lopez: Morphy Defense, Modern Steinitz Defense",C7,C
+153,B28,"Sicilian Defense: O'Kelly Variation, Yerevan System",B2,B
+154,C51,"Italian Game: Evans Gambit, Ulvestad Variation",C5,C
+155,A19,"English Opening: Mikenas-Carls, Sicilian",A1,A
+156,C49,"Four Knights Game: Spanish Variation, Symmetrical Variation, Tarrasch Variation",C4,C
+157,C37,King's Gambit Accepted: Sörensen Gambit,C3,C
+158,E00,Indian Defense: Seirawan Attack,E0,E
+159,C06,"French Defense: Tarrasch Variation, Leningrad Variation",C0,C
+160,B51,"Sicilian Defense: Moscow Variation, Moscow Gambit",B5,B
+161,D90,Grünfeld Defense: Three Knights Variation,D9,D
+162,A84,Dutch Defense: Rubinstein Variation,A8,A
+163,B43,"Sicilian Defense: Kan Variation, Wing Attack, Spraggett Attack",B4,B
+164,D24,Queen's Gambit Accepted: Showalter Variation,D2,D
+165,B33,Sicilian Defense: Open [B33],B3,B
+166,D45,Semi-Slav Defense: Stonewall Defense,D4,D
+167,C15,"French Defense: Winawer Variation, Winckelmann-Reimer Gambit",C1,C
+168,B58,"Sicilian Defense: Classical Variation, Dragon Transfer",B5,B
+169,D35,Queen's Gambit Declined: Normal Defense,D3,D
+170,B03,Alekhine Defense: O'Sullivan Gambit,B0,B
+171,C56,"Italian Game: Two Knights Defense, Yurdansky Attack",C5,C
+172,C11,"French Defense: Steinitz Variation, Gledhill Attack",C1,C
+173,A42,"Pterodactyl Defense: Central, Bogolubovia",A4,A
+174,C89,"Ruy Lopez: Marshall Attack, Steiner Variation",C8,C
+175,A69,"Benoni Defense: Four Pawns Attack, Main Line",A6,A
+176,D85,"Grünfeld Defense: Exchange Variation, Nadanian Attack",D8,D
+177,A56,Vulture Defense,A5,A
+178,B45,Sicilian Defense: Taimanov Variation [B45],B4,B
+179,C71,Ruy Lopez: Noah's Ark Trap,C7,C
+180,A52,"Indian Defense: Budapest Defense, Rubinstein Variation",A5,A
+181,B31,"Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Gurgenidze Variation",B3,B
+182,E61,King's Indian Defense: Smyslov Variation,E6,E
+183,D52,"Queen's Gambit Declined: Cambridge Springs Defense, Yugoslav Variation",D5,D
+184,E98,"King's Indian Defense: Orthodox Variation, Classical System, Neo-Classical Line",E9,E
+185,C09,"French Defense: Tarrasch Variation, Open System, Main Line",C0,C
+186,D80,Grünfeld Defense: Zaitsev Gambit,D8,D
+187,B17,"Caro-Kann Defense: Karpov Variation, Tiviakov-Fischer Attack",B1,B
+188,A16,"English Opening: Anglo-Indian Defense, Queen's Knight Variation",A1,A
+189,B70,"Sicilian Defense: Dragon Variation, Fianchetto Variation",B7,B
+190,A14,"Réti Opening: Anglo-Slav Variation, Bogoljubow Variation, Stonewall Line",A1,A
+191,A65,"Benoni Defense: King's Pawn Line, with Nge2",A6,A
+192,C54,"Italian Game: Giuoco Piano, Therkatz-Herzog Variation",C5,C
+193,A47,Pseudo Queen's Indian Defense,A4,A
+194,B04,"Alekhine Defense: Modern Variation, Schmid Variation",B0,B
+195,B72,"Sicilian Defense: Dragon Variation, Classical Variation, Grigoriev Variation",B7,B
+196,D09,"Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bg4 Line",D0,D
+197,B62,"Sicilian Defense: Richter-Rauzer Variation, Vitolins Variation",B6,B
+198,B90,"Sicilian Defense: Scheveningen Variation, English Attack, with f3",B9,B
+199,B24,"Sicilian Defense: Closed, Smyslov Variation",B2,B
+200,C31,"Van Geet Opening: Grünfeld Defense, Steiner Gambit",C3,C
+201,B73,"Sicilian Defense: Dragon Variation, Classical Variation, Zollner Gambit",B7,B
+202,B36,"Sicilian Defense: Accelerated Dragon, Maróczy Bind, Gurgenidze Variation",B3,B
+203,E51,Nimzo-Indian Defense: Ragozin Variation,E5,E
+204,B18,Caro-Kann Defense: Martian Gambit,B1,B
+205,C18,"French Defense: Winawer Variation, Warsaw Variation",C1,C
+206,A08,Zukertort Opening: Reversed Grünfeld,A0,A
+207,D55,Queen's Gambit Declined: Pillsbury Attack,D5,D
+208,E21,"Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit",E2,E
+209,A35,"English Opening: Symmetrical Variation, Two Knights Variation",A3,A
+210,C92,"Ruy Lopez: Closed, Zaitsev System",C9,C
+211,C79,"Ruy Lopez: Steinitz Defense Deferred, Lipnitsky Variation",C7,C
+212,D38,Queen's Gambit Declined: Westphalian Variation,D3,D
+213,A17,"English Opening: Anglo-Indian Defense, Zvjaginsev-Krasenkow Attack",A1,A
+214,C08,"French Defense: Tarrasch Variation, Open System, Advance Line",C0,C
+215,C17,"French Defense: Winawer Variation, Retreat Variation, Armenian Line",C1,C
+216,C35,"King's Gambit Accepted: Cunningham Defense, McCormick Defense",C3,C
+217,A29,"English Opening: King's English Variation, Four Knights Variation, Fianchetto Line, with Nb6",A2,A
+218,E04,"Catalan Opening: Open Defense, Modern Sharp Variation",E0,E
+219,D46,Semi-Slav Defense: Romih Variation,D4,D
+220,B05,"Alekhine Defense: Modern Variation, Vitolins Attack",B0,B
+221,C39,King's Gambit Accepted: King's Knight's Gambit,C3,C
+222,C59,"Italian Game: Two Knights Defense, Steinitz Variation",C5,C
+223,E41,"Nimzo-Indian Defense: Rubinstein System, Hübner Variation",E4,E
+224,D50,"Queen's Gambit Declined: Semi-Tarrasch Defense, Krause Variation",D5,D
+225,E91,King's Indian Defense: Orthodox Variation [E91],E9,E
+226,C91,"Ruy Lopez: Closed, Yates Variation, Short Attack",C9,C
+227,D40,"Queen's Gambit Declined: Semi-Tarrasch Defense, Symmetrical Variation",D4,D
+228,D41,"Queen's Gambit Declined: Semi-Tarrasch Defense, San Sebastian Variation",D4,D
+229,E24,"Nimzo-Indian Defense: Sämisch Variation, Botvinnik Variation",E2,E
+230,A44,Benoni Defense: Semi-Benoni,A4,A
+231,B63,"Sicilian Defense: Richter-Rauzer Variation, Traditional Variation",B6,B
+232,A37,"English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation",A3,A
+233,B93,"Sicilian Defense: Najdorf Variation, Amsterdam Variation",B9,B
+234,A36,"English Opening: Symmetrical Variation, Ultra-Symmetrical Variation",A3,A
+235,D03,"Queen's Pawn Game: Torre Attack, Grünfeld Variation",D0,D
+236,B80,"Sicilian Defense: Scheveningen Variation, Vitolins Variation",B8,B
+237,D91,"Grünfeld Defense: Three Knights Variation, Petrosian System",D9,D
+238,A27,"English Opening: King's English Variation, Three Knights System",A2,A
+239,E81,"King's Indian Defense: Sämisch Variation, Sämisch Gambit Accepted",E8,E
+240,D44,"Semi-Slav Defense: Botvinnik Variation, Szabo Variation",D4,D
+241,D26,"Queen's Gambit Accepted: Normal Variation, Traditional System",D2,D
+242,B56,Sicilian Defense: Yates Variation,B5,B
+243,E32,"Nimzo-Indian Defense: Classical Variation, Vitolins-Adorjan Gambit",E3,E
+244,D60,"Queen's Gambit Declined: Orthodox Defense, Rauzer Variation",D6,D
+245,C05,"French Defense: Tarrasch Variation, Pawn Center Variation",C0,C
+246,B60,"Sicilian Defense: Richter-Rauzer Variation, Modern Variation",B6,B
+247,A51,"Indian Defense: Budapest Defense, Fajarowicz-Steiner Variation",A5,A
+248,A80,"Queen's Pawn Game: Veresov Attack, Dutch System",A8,A
+249,E01,Catalan Opening: Closed,E0,E
+250,C07,"French Defense: Tarrasch Variation, Open System, Süchting Line",C0,C
+251,C33,King's Gambit Accepted: Villemson Gambit,C3,C
+252,A75,"Benoni Defense: Classical Variation, Argentine Counterattack",A7,A
+253,B52,"Sicilian Defense: Moscow Variation, Sokolsky Variation",B5,B
+254,E66,"King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line",E6,E
+255,C32,"King's Gambit Declined: Falkbeer Countergambit, Tarrasch Variation",C3,C
+256,A62,Benoni Defense: Fianchetto Variation,A6,A
+257,B76,"Sicilian Defense: Dragon Variation, Yugoslav Attack, Panov Variation",B7,B
+258,D86,"Grünfeld Defense: Exchange Variation, Simagin's Lesser Variation",D8,D
+259,B98,"Sicilian Defense: Najdorf Variation, Traditional Line",B9,B
+260,C69,"Ruy Lopez: Exchange Variation, Normal Variation",C6,C
+261,D92,"Grünfeld Defense: Three Knights Variation, Hungarian Attack",D9,D
+262,A31,"English Opening: Symmetrical Variation, Anti-Benoni Variation",A3,A
+263,E71,King's Indian Defense: Makogonov Variation,E7,E
+264,A57,"Benko Gambit: Zaitsev Variation, Nescafe Frappe Attack",A5,A
+265,C12,"French Defense: McCutcheon Variation, Tartakower Variation",C1,C
+266,A39,"English Opening: Symmetrical Variation, Mecking Variation",A3,A
+267,C38,King's Gambit Accepted: Traditional Variation,C3,C
+268,A67,Benoni Defense: Taimanov Variation,A6,A
+269,E73,King's Indian Defense: Semi-Averbakh System,E7,E
+270,C14,"French Defense: Classical Variation, Tarrasch Variation",C1,C
+271,C29,"Vienna Game: Vienna Gambit, Wurzburger Trap",C2,C
+272,C85,"Ruy Lopez: Closed, Delayed Exchange",C8,C
+273,E14,Queen's Indian Defense: Spassky System3,E1,E
+274,E07,"Catalan Opening: Closed, Botvinnik Variation",E0,E
+275,B95,Sicilian Defense: Najdorf Variation,B9,B
+276,A24,"English Opening: King's English Variation, Two Knights Variation, Fianchetto Line",A2,A
+277,E70,King's Indian Defense: Normal Variation,E7,E
+278,B49,"Sicilian Defense: Taimanov Variation, Bastrikov Variation",B4,B
+279,D13,"Slav Defense: Exchange Variation, Schallopp Variation",D1,D
+280,A61,Benoni Defense: Uhlmann Variation,A6,A
+281,B94,"Sicilian Defense: Najdorf Variation, Ivkov Variation",B9,B
+282,E67,"King's Indian Defense: Fianchetto Variation, Debrecen Defense",E6,E
+283,E38,"Nimzo-Indian Defense: Classical Variation, Berlin Variation, Steiner Variation",E3,E
+284,E06,Catalan Opening: Closed [E06],E0,E
+285,E40,"Nimzo-Indian Defense: Rubinstein System, Taimanov Variation",E4,E
+286,B83,"Sicilian Defense: Scheveningen Variation, Modern Variation",B8,B
+287,E50,Nimzo-Indian Defense,E5,E
+288,E92,"King's Indian Defense: Petrosian Variation, Stein Defense",E9,E
+289,C88,Ruy Lopez: Noah's Ark Trap [C88],C8,C
+290,C90,"Ruy Lopez: Closed, Suetin Variation",C9,C
+291,C80,"Ruy Lopez: Open, Zukertort Variation",C8,C
+292,A58,Benko Gambit: Nd2 Variation,A5,A
+293,A33,"English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense",A3,A
+294,D16,Slav Defense: Steiner Variation,D1,D
+295,B91,"Sicilian Defense: Najdorf Variation, Zagreb Variation",B9,B
+296,A81,Dutch Defense: Semi-Leningrad Variation,A8,A
+297,B96,"Sicilian Defense: Najdorf Variation, Polugaevsky Variation, Simagin Line",B9,B
+298,E54,"Nimzo-Indian Defense: Normal Variation, Gligoric System, Smyslov Variation",E5,E
+299,B47,"Sicilian Defense: Taimanov Variation, Bastrikov Variation, Ponomariov Gambit",B4,B
+300,B26,Sicilian Defense: Closed,B2,B
+301,B14,"Caro-Kann Defense: Panov Attack, Main Line",B1,B
+302,C97,"Ruy Lopez: Closed, Chigorin, Yugoslav System",C9,C
+303,E94,"King's Indian Defense: Orthodox Variation, Ukrainian Defense",E9,E
+304,B42,"Sicilian Defense: Kan Variation, Swiss Cheese Variation",B4,B
+305,C03,"French Defense: Tarrasch Variation, Morozevich Variation",C0,C
+306,D25,Queen's Gambit Accepted: Winawer Defense,D2,D
+307,A38,"English Opening: Symmetrical Variation, Full Symmetry Line",A3,A
+308,A87,Dutch Defense: Leningrad Variation,A8,A
+309,B19,"Caro-Kann Defense: Classical Variation, Spassky Variation",B1,B
+310,B88,"Sicilian Defense: Sozin Attack, Leonhardt Variation",B8,B
+311,E17,Queen's Indian Defense: Traditional Variation,E1,E
+312,E12,"Queen's Indian Defense: Petrosian Variation, Farago Defense",E1,E
+313,E18,"Queen's Indian Defense: Classical Variation, Traditional Variation, Nimzowitsch Line",E1,E
+314,E80,King's Indian Defense: Sämisch Variation,E8,E
+315,A89,"Dutch Defense: Leningrad Variation, Matulovic Variation",A8,A
+316,D61,"Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation",D6,D
+317,E09,"Catalan Opening: Closed, Sokolsky Variation",E0,E
+318,B78,"Sicilian Defense: Dragon Variation, Yugoslav Attack, Topalov Variation",B7,B
+319,A82,Rat Defense: Balogh Defense,A8,A
+320,D93,"Grünfeld Defense: Three Knights Variation, Hungarian Variation",D9,D
+321,E27,Nimzo-Indian Defense: Sämisch Variation,E2,E
+322,E36,"Nimzo-Indian Defense: Classical Variation, Romanishin Gambit",E3,E
+323,E63,"King's Indian Defense: Fianchetto Variation, Panno Variation, Korchnoi Line",E6,E
+324,C95,"Ruy Lopez: Closed, Breyer Defense, Zaitsev Hybrid",C9,C
+325,D39,"Queen's Gambit Declined: Ragozin Defense, Vienna Variation",D3,D
+326,D70,Neo-Grünfeld Defense: with g3,D7,D
+327,D19,"Slav Defense: Czech Variation, Dutch Variation, Sämisch Variation",D1,D
+328,D34,"Tarrasch Defense: Prague Variation, Main Line",D3,D
+329,D36,"Queen's Gambit Declined: Exchange Variation, Reshevsky Variation",D3,D
+330,C84,"Ruy Lopez: Closed, Morphy Attack",C8,C
+331,E34,"Nimzo-Indian Defense: Classical Variation, Noa Variation",E3,E
+332,B75,"Sicilian Defense: Dragon Variation, Yugoslav Attack, Hungarian Dragon",B7,B
+333,E97,"King's Indian Defense: Orthodox Variation, Modern System",E9,E
+334,D23,Queen's Gambit Accepted: Mannheim Variation,D2,D
+335,D78,"Neo-Grünfeld Defense: Classical Variation, Original Defense",D7,D
+336,B97,"Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation",B9,B
+337,B38,"Sicilian Defense: Accelerated Dragon, Maróczy Bind",B3,B
+338,A18,English Opening: Mikenas-Carls Variation,A1,A
+339,C04,"French Defense: Tarrasch Variation, Guimard Defense, Main Line",C0,C
+340,A96,"Dutch Defense: Classical Variation, Huisl Variation",A9,A
+341,E33,"Nimzo-Indian Defense: Classical Variation, Zurich Variation",E3,E
+342,B37,"Sicilian Defense: Accelerated Dragon, Simagin Variation",B3,B
+343,A71,"Benoni Defense: Classical Variation, Averbakh-Grivas Attack",A7,A
+344,E43,"Nimzo-Indian Defense: St. Petersburg Variation, with Ne4",E4,E
+345,A76,"Benoni Defense: Classical Variation, Czerniak Defense",A7,A
+346,E72,King's Indian Defense: Pomar System,E7,E
+347,D75,Neo-Grünfeld Defense: Delayed Exchange Variation,D7,D
+348,A70,"Benoni Defense: Classical Variation, Traditional Variation",A7,A
+349,B48,"Sicilian Defense: Taimanov Variation, Bastrikov Variation, English Attack",B4,B
+350,B59,Sicilian Defense: Boleslavsky Variation,B5,B
+351,E65,"King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Exchange Line",E6,E
+352,E99,"King's Indian Defense: Orthodox Variation, Classical System, Traditional Line",E9,E
+353,E42,"Nimzo-Indian Defense: Rubinstein System, Rubinstein Variation, Sherbakov Attack",E4,E
+354,B74,"Sicilian Defense: Dragon Variation, Classical Variation, Tartakower Line",B7,B
+355,D77,"Neo-Grünfeld Defense: Classical Variation, Polgar Variation",D7,D
+356,D79,Neo-Grünfeld Defense: Ultra-Delayed Exchange Variation,D7,D
+357,A77,"Benoni Defense: Classical Variation, Czerniak Defense, Tal Line",A7,A
+358,E16,Queen's Indian Defense: Yates Variation,E1,E
+359,E53,"Nimzo-Indian Defense: Normal Variation, Gligoric System, Keres Variation",E5,E
+360,E15,"Queen's Indian Defense: Fianchetto Variation, Traditional Line",E1,E
+361,D14,"Slav Defense: Exchange Variation, Trifunovic Variation",D1,D
+362,E05,"Catalan Opening: Open Defense, Classical Line",E0,E
+363,D87,"Grünfeld Defense: Exchange Variation, Spassky Variation",D8,D
+364,A83,"Dutch Defense: Staunton Gambit, Nimzowitsch Variation",A8,A
+365,A88,"Dutch Defense: Leningrad Variation, Warsaw Variation",A8,A
+366,D98,"Grünfeld Defense: Russian Variation, Smyslov Variation",D9,D
+367,C52,"Italian Game: Evans Gambit, Waller Attack",C5,C
+368,D17,"Slav Defense: Czech Variation, Wiesbaden Variation, Sharp Line",D1,D
+369,B99,"Sicilian Defense: Najdorf Variation, Main Line",B9,B
+370,D33,Tarrasch Defense: Wagner Variation,D3,D
+371,C74,"Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Siesta Variation",C7,C
+372,A59,Benko Gambit Accepted: Yugoslav,A5,A
+373,C19,"French Defense: Winawer Variation, Positional Variation",C1,C
+374,A92,Dutch Defense: Stonewall Variation,A9,A
+375,D58,"Queen's Gambit Declined: Tartakower Defense, Exchange Variation",D5,D
+376,A73,"Benoni Defense: Classical Variation, Main Line",A7,A
+377,E37,"Nimzo-Indian Defense: Classical Variation, Noa Variation, San Remo Variation",E3,E
+378,E28,Nimzo-Indian Defense: Sämisch Variation [E28],E2,E
+379,E46,Nimzo-Indian Defense: Simagin Variation,E4,E
+380,B87,"Sicilian Defense: Sozin Attack, Flank Variation",B8,B
+381,C82,"Ruy Lopez: Open, St. Petersburg Variation",C8,C
+382,C73,"Ruy Lopez: Morphy Defense, Modern Steinitz Defense [C73]",C7,C
+383,D89,"Grünfeld Defense: Exchange Variation, Spassky Variation [D89]",D8,D
+384,D18,"Slav Defense: Czech Variation, Lasker Variation",D1,D
+385,E57,"Nimzo-Indian Defense: Normal Variation, Gligoric System, Bernstein Defense",E5,E
+386,A86,Dutch Defense: Leningrad Variation [A86],A8,A
+387,E13,Queen's Indian Defense: Kasparov Variation,E1,E
+388,E68,"King's Indian Defense: Fianchetto Variation, Long Variation",E6,E
+389,A32,"English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense [A32]",A3,A
+390,D83,"Grünfeld Defense: Brinckmann Attack, Reshevsky Gambit",D8,D
