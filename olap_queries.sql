@@ -34,10 +34,10 @@ SELECT o.category,
        COUNT(*) FILTER (WHERE tc.name = 'Blitz')     AS blitz_games,
        COUNT(*) FILTER (WHERE tc.name = 'Rapid')     AS rapid_games,
        COUNT(*) FILTER (WHERE tc.name = 'Classical') AS classical_games,
-       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Bullet'),    3) AS bullet_win_rate,
-       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Blitz'),     3) AS blitz_win_rate,
-       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Rapid'),     3) AS rapid_win_rate,
-       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Classical'), 3) AS classical_win_rate
+       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Bullet'),    3) AS bullet_white_rate,
+       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Blitz'),     3) AS blitz_white_rate,
+       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Rapid'),     3) AS rapid_white_rate,
+       ROUND(AVG(g.white_score) FILTER (WHERE tc.name = 'Classical'), 3) AS classical_white_rate
 FROM GAME g
 JOIN OPENING     o  ON g.opening_key      = o.opening_key
 JOIN TIMECONTROL tc ON g.time_control_key = tc.time_control_key
@@ -45,17 +45,18 @@ GROUP BY o.category
 ORDER BY o.category;
 
 SELECT p.username,
-       d.year, d.month,
+       d.year, d.month, tc.name AS time_control,
        ROUND(AVG(pr.rating_change), 2) AS avg_daily_change,
        SUM(pr.rating_change)           AS net_monthly_change,
-       ROUND(STDDEV(pr.rating), 2)     AS rating_volatility,
        MIN(pr.rating)                  AS min_rating,
        MAX(pr.rating)                  AS max_rating
 FROM RATING_SNAPSHOT pr
 JOIN PLAYER p ON pr.player_key = p.player_key
 JOIN DATE   d ON pr.date_key   = d.date_key
-GROUP BY p.username, d.year, d.month
-ORDER BY rating_volatility DESC;
+JOIN TIMECONTROL tc ON pr.time_control_key = tc.time_control_key
+GROUP BY p.username, d.year, d.month, tc.name
+HAVING AVG(pr.rating_change)is not NULL
+ORDER BY  d.year, d.month,avg_daily_change DESC;
 
 WITH monthly_growth AS (
     SELECT p.username,
@@ -121,7 +122,7 @@ SELECT p.username,
        d.year, d.month,
        msr.rating             AS rating_at_month_start,
        COUNT(*)               AS games_played,
-       ROUND(AVG(g.white_score), 3) AS win_rate
+       ROUND(AVG(g.white_score), 3) AS white_avg_rate
 FROM GAME g
 JOIN DATE   d   ON g.date_key         = d.date_key
 JOIN PLAYER p   ON g.white_player_key = p.player_key
