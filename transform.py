@@ -196,17 +196,18 @@ def classify_tc(base: int, inc: int) -> str:
 
 
 def parse_time_control(tc_str: str):
-    """'180+2' -> (180, 2, 'Blitz')."""
-    if not tc_str:
-        return 0, 0, "Unknown"
-    if tc_str == "-":
-        return 0, 0, "Correspondence"
-    match = re.match(r"(\d+)\+(\d+)", tc_str)
+    """'180+2' -> (180, 2, '180+2', 'Blitz')."""
+    normalized = str(tc_str).strip() if tc_str is not None else ""
+    if not normalized:
+        return 0, 0, "Unknown", "Unknown"
+    if normalized == "-":
+        return 0, 0, "-", "Correspondence"
+    match = re.match(r"(\d+)\+(\d+)", normalized)
     if not match:
-        return 0, 0, "Unknown"
+        return 0, 0, normalized, "Unknown"
     base = int(match.group(1))
     inc = int(match.group(2))
-    return base, inc, classify_tc(base, inc)
+    return base, inc, f"{base}+{inc}", classify_tc(base, inc)
 
 
 
@@ -252,11 +253,11 @@ print("[transform] Building DIM_DATE")
 
 dim_date = games_raw[["_date"]].dropna().drop_duplicates().reset_index(drop=True)
 dim_date["date_key"] = dim_date["_date"].dt.strftime("%Y%m%d").astype(int)
-dim_date["full_date"] = dim_date["_date"].dt.date
+dim_date["date"] = dim_date["_date"].dt.date
 dim_date["day"] = dim_date["_date"].dt.day
 dim_date["month"] = dim_date["_date"].dt.month
 dim_date["year"] = dim_date["_date"].dt.year
-dim_date = dim_date.drop(columns="_date").sort_values("date_key").reset_index(drop=True)
+dim_date = dim_date.drop(columns="_date")[["date_key", "date", "day", "month", "year"]].sort_values("date_key").reset_index(drop=True)
 
 dim_date.to_csv("data/dim_date.csv", index=False)
 print(f"  DIM_DATE rows: {len(dim_date):,}")
@@ -265,19 +266,22 @@ print(f"  DIM_DATE rows: {len(dim_date):,}")
 
 print("[transform] Building DIM_TIMECONTROL")
 
-base_list, inc_list, name_list = [], [], []
+base_list, inc_list, time_control_list, type_list = [], [], [], []
 for tc in games_raw["TimeControl"]:
-    base, inc, name = parse_time_control(tc)
+    base, inc, time_control, tc_type = parse_time_control(tc)
     base_list.append(base)
     inc_list.append(inc)
-    name_list.append(name)
+    time_control_list.append(time_control)
+    type_list.append(tc_type)
 
 games_raw["base_seconds"] = base_list
 games_raw["increment_sec"] = inc_list
-games_raw["name"] = name_list
+games_raw["time_control"] = time_control_list
+games_raw["type"] = type_list
 
-dim_tc = games_raw[["base_seconds", "increment_sec", "name"]].drop_duplicates().reset_index(drop=True)
+dim_tc = games_raw[["time_control", "type", "base_seconds", "increment_sec"]].drop_duplicates().reset_index(drop=True)
 dim_tc.insert(0, "time_control_key", range(1, len(dim_tc) + 1))
+dim_tc = dim_tc[["time_control_key", "time_control", "type", "base_seconds", "increment_sec"]]
 dim_tc.to_csv("data/dim_timecontrol.csv", index=False)
 print(f"  DIM_TIMECONTROL rows: {len(dim_tc):,}")
 
@@ -359,10 +363,10 @@ players_raw["username_lower"] = players_raw["username"].str.lower()
 players_raw["title"] = players_raw["title"].replace("", None)
 players_raw["country_code"] = players_raw["country_code"].apply(normalize_country_code)
 players_raw["country_name"] = players_raw["country_code"].map(
-    lambda c: COUNTRY_MAP[c][0] if c else None
+    lambda c: COUNTRY_MAP[c][0] if c in COUNTRY_MAP else None
 )
 players_raw["continent"] = players_raw["country_code"].map(
-    lambda c: COUNTRY_MAP[c][1] if c else None
+    lambda c: COUNTRY_MAP[c][1] if c in COUNTRY_MAP else None
 )
 
 # check if there are player that are in games (obatained via lichess dataset) but not in plyers table (obtained via API)
