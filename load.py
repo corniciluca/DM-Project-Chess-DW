@@ -36,7 +36,7 @@ def main():
     conn.autocommit = False
     with conn.cursor() as cur:
         dims = {
-            "DATE": (pd.read_csv("data/dim_date.csv"), ["full_date"]),
+            "DATE": (pd.read_csv("data/dim_date.csv"), ["date"]),
             "PLAYER": (pd.read_csv("data/dim_player.csv"), ["username"]),
             "OPENING": (pd.read_csv("data/dim_opening.csv"), ["eco"]),
             "TERMINATION": (pd.read_csv("data/dim_termination.csv"), ["termination"]),
@@ -47,7 +47,7 @@ def main():
         for table, (df, keys) in dims.items():
             load_table(cur, table, df.drop(columns=["date_key"]) if table == "DATE" else df, keys)
 
-        cur.execute("SELECT TO_CHAR(full_date, 'YYYYMMDD'), date_key FROM DATE")
+        cur.execute("SELECT TO_CHAR(date, 'YYYYMMDD'), date_key FROM DATE")
         date_keys = dict(cur.fetchall())
 
         fact_game = pd.read_csv("data/fact_game.csv")
