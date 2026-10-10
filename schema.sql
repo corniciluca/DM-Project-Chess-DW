@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS RATING_SNAPSHOT CASCADE;
 DROP TABLE IF EXISTS GAME CASCADE;
 DROP TABLE IF EXISTS GAME_URL CASCADE;
+DROP TABLE IF EXISTS TERMINATION CASCADE;
 DROP TABLE IF EXISTS PLAYER CASCADE;
 DROP TABLE IF EXISTS TOURNAMENT CASCADE;
 DROP TABLE IF EXISTS TIMECONTROL CASCADE;
@@ -9,7 +10,7 @@ DROP TABLE IF EXISTS DATE CASCADE;
 
 CREATE TABLE DATE (
     date_key  SERIAL PRIMARY KEY,
-    full_date DATE NOT NULL UNIQUE,
+    date DATE NOT NULL UNIQUE,
     day       INT NOT NULL,
     month     INT NOT NULL,
     year      INT NOT NULL
@@ -22,7 +23,7 @@ CREATE TABLE DATE (
 CREATE TABLE PLAYER (
     player_key   SERIAL PRIMARY KEY,
     username     VARCHAR(100) UNIQUE NOT NULL,
-    title        VARCHAR(10) CHECK (title IN ('GM', 'IM', 'FM', 'CM', 'WGM', 'WIM', 'WFM', 'WCM', NULL)),
+    title        VARCHAR(10) CHECK (title IN ('GM','IM','FM','CM','NM','WGM','WIM','WFM','WCM','LM','BOT', NULL)),
     country_code CHAR(2),
     country_name VARCHAR(100),
     continent    VARCHAR(50) CHECK (continent IN (
@@ -47,7 +48,8 @@ CREATE TABLE OPENING (
 
 CREATE TABLE TIMECONTROL (
     time_control_key SERIAL PRIMARY KEY,
-    name             VARCHAR(20) NOT NULL,
+    time_control     VARCHAR(20) NOT NULL,
+    type             VARCHAR(20) NOT NULL,
     base_seconds     INT NOT NULL,
     increment_sec    INT NOT NULL,
     UNIQUE (base_seconds, increment_sec)
